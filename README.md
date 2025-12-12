@@ -19,15 +19,25 @@ In the git you have a signature.txt with my virtual machine's virtual disk signa
 
 If you open the VM a monitoring script appears at startup and every 10 minutes. This script shows the different components of the virtual machine. You should see :
 <ins>The architecture of the operation system and its kernel version</ins>
+
 <ins>The physical and virtual processor(s)</ins>
+
 <ins>The current available RAM on the server and its utilization rate in percent</ins> 
+
 <ins>The current available storage and its utilization rate in percent</ins>
+
 <ins>The current utilization rate of the processor(s) in percent</ins>
+
 <ins>The date and time of the last reboot</ins>
+
 <ins> Whether LVM is active or not</ins>
+
 <ins> The number of active TCP connections</ins>
+
 <ins> The number of users using the server</ins>
+
 <ins>The ipv4 adress of the server and its MAC (Media Access Control) adress</ins>
+
 <ins>The number of sudo commands executed</ins>
 
 
