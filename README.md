@@ -3,7 +3,7 @@
 Born2beRoot | 42 Lausanne 
 made by Jefferson Strasser (jstrasse@student.42lausanne.ch)
 
-<ins># Description of the project</ins>
+# Description of the project
 
 The goal of this project is to discover the wonderful world of virtualization. I had to choose between 2 Linux distribution (Debian or Rocky). For this project I chose to go with Rocky.
 
@@ -13,7 +13,7 @@ Both version are highly stable with regular security updates.
 Rocky is optimized for entreprise workload where Debian is more suitable for various applications and needs. 
 Therefore Rocky is focused for entreprises and servers where Debian is more versatile and thus better for desktop usage or in some cases for servers. This makes Rocky less customizable than Debian but focused on stability. 
 
-<ins># Instructions for the project</ins>
+# Instructions for the project
 
 In the git you have a signature.txt with my virtual machine's virtual disk signature. You have to compare it with the one of my virtual machine. 
 
@@ -45,13 +45,13 @@ You should see :
 
 
 
-<ins># Resources used</ins>
+# Resources used
 
 
-<ins># Difficulties encountered</ins>
+# <ins>Difficulties encountered</ins>
 
 
 
-<ins># Testing the Virtual Machine</ins>
+# Testing the Virtual Machine
 
 
