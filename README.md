@@ -1,57 +1,19 @@
-*This project has been created as part of the 42 curriculum by jstrasse*
+*This project has been created as part
+of the 42 curriculum by jstrasse*
+<h1>Born2beRoot </h1>
 
-Born2beRoot | 42 Lausanne 
-made by Jefferson Strasser (jstrasse@student.42lausanne.ch)
+<h2> Description</h2>
+<p>This is a 42 project. It consists on discovering the world of virtualization. Students have to install their own Linux System choosing between Debian or Rocky.</p>
+<p>I chose Debian as it is more user-friendly. It's also a good choice for a personal computer and is reliable for a server. Rocky is more entreprise oriented and better for server purposes but it is a bit more complex to put in place.<br/>
+I started with Rocky and was able to set it up entirely but the latest kernel version of Rocky 10 requires VirtualBox 7.1 minimum and school computers only have the 7.0 version. I asked to update it and they said it should be done soon. Nevertheless I set up another VM with Debian for the purpose of my project as I can open it at school.<br/> Throughout the change, I found that there is much more information, guides and tutorial for Debian than for Rocky. <br/><h3> Here are the main differences, Debian vs Rocky</h3> Debian we use apt to install low level packages. In Rocky we use dnf. Firewalls are enabled via UFW in Debian where as Firewalld is used on Rocky systems. APPArmor is used on Debian and SELinux on Rocky.</p> 
+The main differences I found was when I was writing the monitoring script. Debian allows to see and read sudo cmds directly with the sudo users. Rocky asks the user to log in to sudo to see it. This makes the script not show the number of Sudo Commands before entering sudo. It will prompt a message with permission not allowed if not in sudo mode for this part of the script. Also some information about the cpu is located differently and some commands are different.
+<h2>Instructions</h2>
+Before opening the Virtual Machine, you should verify the signature. For that, you need to go in the Virtual Machine folder (It is located on my external SSD /media/jstrasse/T9/42/Born2BeRoot/), then open a terminal and type <i>shasum Born2beRoot.vdi"</i> <br/> 
+This will give you the VM's signature. You can then diff it with the one in the signature.txt in the git repository. <br/>
+You should also make a clone of the machine in VirtualBox before opening it. Once you open it, the signature will change. <br/>
+Now you can, open the Born2beRoot VM with Virtualbox. 
 
-# Description of the project
-
-The goal of this project is to discover the wonderful world of virtualization. I had to choose between 2 Linux distribution (Debian or Rocky). For this project I chose to go with Rocky.
-
-<ins>But what are the differences ?</ins>
-
-Both version are highly stable with regular security updates.
-Rocky is optimized for entreprise workload where Debian is more suitable for various applications and needs. 
-Therefore Rocky is focused for entreprises and servers where Debian is more versatile and thus better for desktop usage or in some cases for servers. This makes Rocky less customizable than Debian but focused on stability. 
-
-# Instructions for the project
-
-In the git you have a signature.txt with my virtual machine's virtual disk signature. You have to compare it with the one of my virtual machine. 
-
-If you open the VM a monitoring script appears at startup and every 10 minutes. This script shows the different components of the virtual machine. 
-
-You should see :
-
-**The architecture of the operation system and its kernel version**
-
-**The physical and virtual processor(s)**
-
-**The current available RAM on the server and its utilization rate in percent**
-
-**The current available storage and its utilization rate in percent**
-
-**The current utilization rate of the processor(s) in percent**
-
-**The date and time of the last reboot**
-
-**Whether LVM is active or not**
-
-**The number of active TCP connections**
-
-**The number of users using the server**
-
-**The ipv4 adress of the server and its MAC (Media Access Control) adress**
-
-**The number of sudo commands executed**
+<h2>Resources</h2>
 
 
-
-# Resources used
-
-
-# <ins>Difficulties encountered</ins>
-
-
-
-# Testing the Virtual Machine
-
-
+<h2>Difficulties Encountered</h2>
